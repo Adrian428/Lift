@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\Lift\Lift.Core\obj\Debug\netstandard1.6\Lift.Core.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Lift\Lift.Core\obj\Debug\netstandard1.6\Lift.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Lift\Lift.Core\obj\Debug\netstandard1.6\Lift.Core.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Lift\Lift.Core\obj\Debug\netstandard1.6\Lift.Core.AssemblyInfo.cs
+C:\Users\User\Desktop\Lift\Lift.Core\bin\Debug\netstandard1.6\Lift.Core.deps.json
+C:\Users\User\Desktop\Lift\Lift.Core\bin\Debug\netstandard1.6\Lift.Core.dll
+C:\Users\User\Desktop\Lift\Lift.Core\bin\Debug\netstandard1.6\Lift.Core.pdb
+C:\Users\User\Desktop\Lift\Lift.Core\obj\Debug\netstandard1.6\Lift.Core.dll
+C:\Users\User\Desktop\Lift\Lift.Core\obj\Debug\netstandard1.6\Lift.Core.pdb

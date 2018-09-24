@@ -1,0 +1,401 @@
+2018-09-21 19:36:25.8025|TRACE|Passenger.Infrastructure.Services.DataInitializer|Initializing data...
+2018-09-21 19:36:26.8956|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user1'.
+2018-09-21 19:36:26.9606|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user1'.
+2018-09-21 19:36:26.9676|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user2'.
+2018-09-21 19:36:26.9676|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user2'.
+2018-09-21 19:36:26.9806|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user3'.
+2018-09-21 19:36:26.9806|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user3'.
+2018-09-21 19:36:26.9806|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user4'.
+2018-09-21 19:36:26.9986|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user4'.
+2018-09-21 19:36:26.9986|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user5'.
+2018-09-21 19:36:27.0106|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user5'.
+2018-09-21 19:36:27.0106|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user6'.
+2018-09-21 19:36:27.0106|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user6'.
+2018-09-21 19:36:27.0276|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user7'.
+2018-09-21 19:36:27.0276|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user7'.
+2018-09-21 19:36:27.0276|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user8'.
+2018-09-21 19:36:27.0446|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user8'.
+2018-09-21 19:36:27.0446|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user9'.
+2018-09-21 19:36:27.0566|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user9'.
+2018-09-21 19:36:27.0566|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user10'.
+2018-09-21 19:36:27.0566|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user10'.
+2018-09-21 19:36:27.0566|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin1'.
+2018-09-21 19:36:27.0746|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin2'.
+2018-09-21 19:36:27.0746|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin3'.
+2018-09-21 19:36:27.3486|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting starting
+2018-09-21 19:36:27.6186|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting started
+2018-09-21 19:36:53.3590|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN8V" started.
+2018-09-21 19:36:53.7410|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/drivers  
+2018-09-21 19:36:54.5050|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Drivers'.
+2018-09-21 19:36:54.6021|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.DriversController.Post (Passenger.Api)' with id 'df1c934b-ae92-4ca3-bd8c-e2d12b01f5a8' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 19:36:54.6051|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.DriversController.Put (Passenger.Api)' with id '521ad3a5-56cf-40f1-bd6d-edad02f371a3' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 19:36:54.7170|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Passenger.Api.Controllers.DriversController.Get (Passenger.Api)
+2018-09-21 19:36:54.9091|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Passenger.Api.Controllers.DriversController.Get (Passenger.Api) with arguments ((null)) - ModelState is Valid
+2018-09-21 19:36:55.0121|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Passenger.Api.Controllers.DriversController.Get (Passenger.Api), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2018-09-21 19:36:55.1121|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value System.Collections.Generic.List`1[Passenger.Infrastructure.DTO.DriverDto].
+2018-09-21 19:36:55.7221|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Passenger.Api.Controllers.DriversController.Get (Passenger.Api) in 995.1924ms
+2018-09-21 19:36:55.7591|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN8V" completed keep alive response.
+2018-09-21 19:36:55.7711|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2108.5209ms 200 application/json; charset=utf-8
+2018-09-21 19:36:59.7400|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/users  
+2018-09-21 19:36:59.7400|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Users'.
+2018-09-21 19:36:59.7554|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.UsersController.Post (Passenger.Api)' with id '40d99170-dbab-47c8-a064-62bfcde61ec8' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 19:36:59.7554|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Passenger.Api.Controllers.UsersController.Get (Passenger.Api)
+2018-09-21 19:36:59.7693|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api) with arguments ((null)) - ModelState is Valid
+2018-09-21 19:37:02.7283|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN8V" received FIN.
+2018-09-21 19:37:02.7283|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN90" started.
+2018-09-21 19:37:02.7283|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/users  
+2018-09-21 19:37:02.7283|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Users'.
+2018-09-21 19:37:02.7283|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.UsersController.Post (Passenger.Api)' with id '40d99170-dbab-47c8-a064-62bfcde61ec8' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 19:37:02.7454|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Passenger.Api.Controllers.UsersController.Get (Passenger.Api)
+2018-09-21 19:37:02.7454|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api) with arguments ((null)) - ModelState is Valid
+2018-09-21 19:37:29.8683|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Passenger.Api.Controllers.UsersController.Get (Passenger.Api) in 30103.0885ms
+2018-09-21 19:37:30.0063|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN8V" completed keep alive response.
+2018-09-21 19:37:30.0063|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30261.3268ms 400 application/json
+2018-09-21 19:37:30.0123|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN8V" disconnecting.
+2018-09-21 19:37:30.0513|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN8V" communication error.
+2018-09-21 19:37:30.0513|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN8V" disconnecting.
+2018-09-21 19:37:30.0513|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN8V" sending FIN.
+2018-09-21 19:37:30.0796|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN8V" stopped.
+2018-09-21 19:37:30.0926|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN8V" sent FIN with status "-4081".
+2018-09-21 19:37:32.7692|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Passenger.Api.Controllers.UsersController.Get (Passenger.Api) in 30021.7091ms
+2018-09-21 19:37:32.7692|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN90" completed keep alive response.
+2018-09-21 19:37:32.7761|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30041.6767ms 400 application/json
+2018-09-21 19:39:34.0295|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN90" disconnecting.
+2018-09-21 19:39:34.0295|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN90" sending FIN.
+2018-09-21 19:39:34.0295|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN90" sent FIN with status "0".
+2018-09-21 19:39:34.0295|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN90" stopped.
+2018-09-21 19:52:09.0513|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN91" started.
+2018-09-21 19:52:09.0513|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-09-21 19:52:09.1463|DEBUG|Microsoft.AspNetCore.Builder.RouterMiddleware|Request did not match any routes.
+2018-09-21 19:52:09.1613|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN91" completed keep alive response.
+2018-09-21 19:52:09.1713|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 116.4062ms 404 
+2018-09-21 19:54:10.3688|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN91" disconnecting.
+2018-09-21 19:54:10.3688|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN91" sending FIN.
+2018-09-21 19:54:10.3688|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN91" sent FIN with status "0".
+2018-09-21 19:54:10.3688|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVT38TPN91" stopped.
+2018-09-21 19:59:38.4960|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting shutdown
+2018-09-21 20:00:05.2116|TRACE|Passenger.Infrastructure.Services.DataInitializer|Initializing data...
+2018-09-21 20:00:06.1816|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user1'.
+2018-09-21 20:00:06.2386|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user1'.
+2018-09-21 20:00:06.2446|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user2'.
+2018-09-21 20:00:06.2446|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user2'.
+2018-09-21 20:00:06.2446|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user3'.
+2018-09-21 20:00:06.2626|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user3'.
+2018-09-21 20:00:06.2626|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user4'.
+2018-09-21 20:00:06.2626|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user4'.
+2018-09-21 20:00:06.2806|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user5'.
+2018-09-21 20:00:06.2806|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user5'.
+2018-09-21 20:00:06.2927|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user6'.
+2018-09-21 20:00:06.2927|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user6'.
+2018-09-21 20:00:06.2927|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user7'.
+2018-09-21 20:00:06.3106|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user7'.
+2018-09-21 20:00:06.3106|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user8'.
+2018-09-21 20:00:06.3227|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user8'.
+2018-09-21 20:00:06.3227|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user9'.
+2018-09-21 20:00:06.3227|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user9'.
+2018-09-21 20:00:06.3407|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user10'.
+2018-09-21 20:00:06.3407|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user10'.
+2018-09-21 20:00:06.3407|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin1'.
+2018-09-21 20:00:06.3546|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin2'.
+2018-09-21 20:00:06.3546|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin3'.
+2018-09-21 20:00:06.6337|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting starting
+2018-09-21 20:00:06.8857|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting started
+2018-09-21 20:08:34.9393|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting shutdown
+2018-09-21 20:09:05.3604|TRACE|Passenger.Infrastructure.Services.DataInitializer|Initializing data...
+2018-09-21 20:09:06.6243|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user1'.
+2018-09-21 20:09:06.6803|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user1'.
+2018-09-21 20:09:06.6993|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user2'.
+2018-09-21 20:09:06.7543|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user2'.
+2018-09-21 20:09:06.7603|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user3'.
+2018-09-21 20:09:06.7603|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user3'.
+2018-09-21 20:09:06.7783|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user4'.
+2018-09-21 20:09:06.7783|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user4'.
+2018-09-21 20:09:06.7993|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user5'.
+2018-09-21 20:09:06.8103|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user5'.
+2018-09-21 20:09:06.8103|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user6'.
+2018-09-21 20:09:06.8273|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user6'.
+2018-09-21 20:09:06.8273|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user7'.
+2018-09-21 20:09:06.8492|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user7'.
+2018-09-21 20:09:06.8583|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user8'.
+2018-09-21 20:09:06.8693|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user8'.
+2018-09-21 20:09:06.8693|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user9'.
+2018-09-21 20:09:06.8933|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user9'.
+2018-09-21 20:09:06.9033|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user10'.
+2018-09-21 20:09:06.9033|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user10'.
+2018-09-21 20:09:06.9033|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin1'.
+2018-09-21 20:09:06.9213|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin2'.
+2018-09-21 20:09:06.9213|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin3'.
+2018-09-21 20:09:07.3343|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting starting
+2018-09-21 20:09:07.6863|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting started
+2018-09-21 20:11:24.7277|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting shutdown
+2018-09-21 20:16:18.2779|TRACE|Passenger.Infrastructure.Services.DataInitializer|Initializing data...
+2018-09-21 20:16:19.6030|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user1'.
+2018-09-21 20:16:19.6700|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user1'.
+2018-09-21 20:16:19.6700|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user2'.
+2018-09-21 20:16:19.6870|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user2'.
+2018-09-21 20:16:19.7000|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user3'.
+2018-09-21 20:16:19.7000|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user3'.
+2018-09-21 20:16:19.7220|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user4'.
+2018-09-21 20:16:19.7400|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user4'.
+2018-09-21 20:16:19.7530|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user5'.
+2018-09-21 20:16:19.7750|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user5'.
+2018-09-21 20:16:19.7840|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user6'.
+2018-09-21 20:16:19.7980|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user6'.
+2018-09-21 20:16:19.7980|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user7'.
+2018-09-21 20:16:19.8170|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user7'.
+2018-09-21 20:16:19.8240|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user8'.
+2018-09-21 20:16:19.8240|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user8'.
+2018-09-21 20:16:19.8640|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user9'.
+2018-09-21 20:16:19.8850|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user9'.
+2018-09-21 20:16:19.9050|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user10'.
+2018-09-21 20:16:19.9460|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user10'.
+2018-09-21 20:16:19.9510|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin1'.
+2018-09-21 20:16:19.9680|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin2'.
+2018-09-21 20:16:19.9860|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin3'.
+2018-09-21 20:16:20.4880|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting starting
+2018-09-21 20:16:20.8220|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting started
+2018-09-21 20:17:31.0074|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVTPVCV4V2" started.
+2018-09-21 20:17:31.4174|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/drivers  
+2018-09-21 20:17:32.2165|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Drivers'.
+2018-09-21 20:17:32.3114|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.DriversController.Post (Passenger.Api)' with id 'a0d9cafe-fbc9-43e8-851d-16feb8ee8eea' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 20:17:32.3114|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.DriversController.Put (Passenger.Api)' with id 'cd177826-43b3-4e73-9b16-df728a321be8' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 20:17:32.4265|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Passenger.Api.Controllers.DriversController.Get (Passenger.Api)
+2018-09-21 20:17:32.6225|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Passenger.Api.Controllers.DriversController.Get (Passenger.Api) with arguments ((null)) - ModelState is Valid
+2018-09-21 20:17:32.7325|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Passenger.Api.Controllers.DriversController.Get (Passenger.Api), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2018-09-21 20:17:32.8615|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value System.Collections.Generic.List`1[Passenger.Infrastructure.DTO.DriverDto].
+2018-09-21 20:17:33.6946|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Passenger.Api.Controllers.DriversController.Get (Passenger.Api) in 1254.718ms
+2018-09-21 20:17:33.7656|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVTPVCV4V2" completed keep alive response.
+2018-09-21 20:17:33.7806|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2442.2748ms 200 application/json; charset=utf-8
+2018-09-21 20:17:41.4763|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/users  
+2018-09-21 20:17:41.4793|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Users'.
+2018-09-21 20:17:41.4793|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.UsersController.Post (Passenger.Api)' with id '476ee085-9a27-456e-858b-1a296095c1da' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 20:17:41.4793|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Passenger.Api.Controllers.UsersController.Get (Passenger.Api)
+2018-09-21 20:17:41.4793|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api) with arguments ((null)) - ModelState is Valid
+2018-09-21 20:17:41.5723|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2018-09-21 20:17:41.5723|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value System.Collections.Generic.List`1[Passenger.Infrastructure.DTO.UserDto].
+2018-09-21 20:17:41.5882|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Passenger.Api.Controllers.UsersController.Get (Passenger.Api) in 100.5584ms
+2018-09-21 20:17:41.5882|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVTPVCV4V2" completed keep alive response.
+2018-09-21 20:17:41.5882|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 117.6705ms 200 application/json; charset=utf-8
+2018-09-21 20:19:24.0657|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting shutdown
+2018-09-21 20:19:24.2047|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVTPVCV4V2" disconnecting.
+2018-09-21 20:19:24.2047|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVTPVCV4V2" sending FIN.
+2018-09-21 20:19:24.2277|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVTPVCV4V2" sent FIN with status "0".
+2018-09-21 20:19:24.2357|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVTPVCV4V2" stopped.
+2018-09-21 20:21:22.0377|TRACE|Passenger.Infrastructure.Services.DataInitializer|Initializing data...
+2018-09-21 20:21:23.3418|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user1'.
+2018-09-21 20:21:23.4078|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user1'.
+2018-09-21 20:21:23.4178|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user2'.
+2018-09-21 20:21:23.4328|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user2'.
+2018-09-21 20:21:23.4328|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user3'.
+2018-09-21 20:21:23.4608|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user3'.
+2018-09-21 20:21:23.4778|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user4'.
+2018-09-21 20:21:23.4938|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user4'.
+2018-09-21 20:21:23.5058|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user5'.
+2018-09-21 20:21:23.5138|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user5'.
+2018-09-21 20:21:23.5278|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user6'.
+2018-09-21 20:21:23.5278|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user6'.
+2018-09-21 20:21:23.5478|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user7'.
+2018-09-21 20:21:23.6038|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user7'.
+2018-09-21 20:21:23.6258|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user8'.
+2018-09-21 20:21:23.6258|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user8'.
+2018-09-21 20:21:23.6888|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user9'.
+2018-09-21 20:21:23.7238|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user9'.
+2018-09-21 20:21:23.7308|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user10'.
+2018-09-21 20:21:23.7308|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user10'.
+2018-09-21 20:21:23.7308|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin1'.
+2018-09-21 20:21:23.7478|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin2'.
+2018-09-21 20:21:23.7478|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin3'.
+2018-09-21 20:21:24.2668|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting starting
+2018-09-21 20:21:24.6009|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting started
+2018-09-21 20:26:40.8811|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting shutdown
+2018-09-21 20:28:20.1165|TRACE|Passenger.Infrastructure.Services.DataInitializer|Initializing data...
+2018-09-21 20:28:21.4776|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user1'.
+2018-09-21 20:28:21.5526|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user1'.
+2018-09-21 20:28:21.5596|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user2'.
+2018-09-21 20:28:21.5596|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user2'.
+2018-09-21 20:28:21.5796|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user3'.
+2018-09-21 20:28:21.5906|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user3'.
+2018-09-21 20:28:21.5906|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user4'.
+2018-09-21 20:28:21.6126|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user4'.
+2018-09-21 20:28:21.6876|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user5'.
+2018-09-21 20:28:21.7166|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user5'.
+2018-09-21 20:28:21.7496|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user6'.
+2018-09-21 20:28:21.7596|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user6'.
+2018-09-21 20:28:21.7806|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user7'.
+2018-09-21 20:28:21.8046|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user7'.
+2018-09-21 20:28:21.8236|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user8'.
+2018-09-21 20:28:21.8506|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user8'.
+2018-09-21 20:28:21.8576|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user9'.
+2018-09-21 20:28:21.8576|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user9'.
+2018-09-21 20:28:21.8746|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user10'.
+2018-09-21 20:28:21.8746|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user10'.
+2018-09-21 20:28:21.8876|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin1'.
+2018-09-21 20:28:21.8876|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin2'.
+2018-09-21 20:28:21.9026|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin3'.
+2018-09-21 20:28:22.2846|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting starting
+2018-09-21 20:28:22.5987|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting started
+2018-09-21 20:28:43.1195|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU07MQ8DM" started.
+2018-09-21 20:28:43.4916|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/users  
+2018-09-21 20:28:44.2757|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Users'.
+2018-09-21 20:28:44.3776|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.UsersController.Post (Passenger.Api)' with id 'ace24698-8bde-4e7a-9182-8680801abc29' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 20:28:44.4886|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Passenger.Api.Controllers.UsersController.Get (Passenger.Api)
+2018-09-21 20:28:44.6847|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api) with arguments ((null)) - ModelState is Valid
+2018-09-21 20:28:44.8236|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2018-09-21 20:28:44.9266|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value System.Collections.Generic.List`1[Passenger.Infrastructure.DTO.UserDto].
+2018-09-21 20:28:45.6606|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Passenger.Api.Controllers.UsersController.Get (Passenger.Api) in 1158.3243ms
+2018-09-21 20:28:45.7287|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU07MQ8DM" completed keep alive response.
+2018-09-21 20:28:45.7477|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2334.4105ms 200 application/json; charset=utf-8
+2018-09-21 20:28:51.8407|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/drivers  
+2018-09-21 20:28:51.8407|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Drivers'.
+2018-09-21 20:28:51.8407|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.DriversController.Post (Passenger.Api)' with id '34402a39-07b7-4724-885b-0421afd597d3' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 20:28:51.8407|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.DriversController.Put (Passenger.Api)' with id 'aa944fc4-92e4-4e77-8ce1-1b8c4d0e9d51' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 20:28:51.8557|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Passenger.Api.Controllers.DriversController.Get (Passenger.Api)
+2018-09-21 20:28:51.8557|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Passenger.Api.Controllers.DriversController.Get (Passenger.Api) with arguments ((null)) - ModelState is Valid
+2018-09-21 20:28:51.9037|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Passenger.Api.Controllers.DriversController.Get (Passenger.Api), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2018-09-21 20:28:51.9037|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value System.Collections.Generic.List`1[Passenger.Infrastructure.DTO.DriverDto].
+2018-09-21 20:28:51.9167|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Passenger.Api.Controllers.DriversController.Get (Passenger.Api) in 58.2197ms
+2018-09-21 20:28:51.9167|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU07MQ8DM" completed keep alive response.
+2018-09-21 20:28:51.9167|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 84.2015ms 200 application/json; charset=utf-8
+2018-09-21 20:28:57.3255|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/users  
+2018-09-21 20:28:57.3255|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Users'.
+2018-09-21 20:28:57.3255|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.UsersController.Post (Passenger.Api)' with id 'ace24698-8bde-4e7a-9182-8680801abc29' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 20:28:57.3385|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Passenger.Api.Controllers.UsersController.Get (Passenger.Api)
+2018-09-21 20:28:57.3385|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api) with arguments ((null)) - ModelState is Valid
+2018-09-21 20:28:57.3385|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2018-09-21 20:28:57.3625|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value System.Collections.Generic.List`1[Passenger.Infrastructure.DTO.UserDto].
+2018-09-21 20:28:57.3625|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Passenger.Api.Controllers.UsersController.Get (Passenger.Api) in 25.1904ms
+2018-09-21 20:28:57.3725|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU07MQ8DM" completed keep alive response.
+2018-09-21 20:28:57.3725|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.8888ms 200 application/json; charset=utf-8
+2018-09-21 20:30:33.5052|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/users  
+2018-09-21 20:30:33.5132|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Users'.
+2018-09-21 20:30:33.5132|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.UsersController.Post (Passenger.Api)' with id 'ace24698-8bde-4e7a-9182-8680801abc29' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 20:30:33.5252|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Passenger.Api.Controllers.UsersController.Get (Passenger.Api)
+2018-09-21 20:30:33.5252|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api) with arguments ((null)) - ModelState is Valid
+2018-09-21 20:30:33.5442|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2018-09-21 20:30:33.5442|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value System.Collections.Generic.List`1[Passenger.Infrastructure.DTO.UserDto].
+2018-09-21 20:30:33.5442|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Passenger.Api.Controllers.UsersController.Get (Passenger.Api) in 18.881ms
+2018-09-21 20:30:33.5442|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU07MQ8DM" completed keep alive response.
+2018-09-21 20:30:33.5622|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 57.0091ms 200 application/json; charset=utf-8
+2018-09-21 20:30:36.1092|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/users  
+2018-09-21 20:30:36.1092|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Users'.
+2018-09-21 20:30:36.1092|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.UsersController.Post (Passenger.Api)' with id 'ace24698-8bde-4e7a-9182-8680801abc29' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 20:30:36.1092|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Passenger.Api.Controllers.UsersController.Get (Passenger.Api)
+2018-09-21 20:30:36.1202|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api) with arguments ((null)) - ModelState is Valid
+2018-09-21 20:30:36.1202|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2018-09-21 20:30:36.1202|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value System.Collections.Generic.List`1[Passenger.Infrastructure.DTO.UserDto].
+2018-09-21 20:30:36.1202|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Passenger.Api.Controllers.UsersController.Get (Passenger.Api) in 14.0671ms
+2018-09-21 20:30:36.1411|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU07MQ8DM" completed keep alive response.
+2018-09-21 20:30:36.1411|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 36.4626ms 200 application/json; charset=utf-8
+2018-09-21 20:30:50.6272|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting shutdown
+2018-09-21 20:30:50.7642|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU07MQ8DM" disconnecting.
+2018-09-21 20:30:50.7642|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU07MQ8DM" sending FIN.
+2018-09-21 20:30:50.7902|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU07MQ8DM" sent FIN with status "0".
+2018-09-21 20:30:50.7992|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU07MQ8DM" stopped.
+2018-09-21 20:32:12.8350|TRACE|Passenger.Infrastructure.Services.DataInitializer|Initializing data...
+2018-09-21 20:32:14.4781|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user1'.
+2018-09-21 20:32:14.5351|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user1'.
+2018-09-21 20:32:14.5451|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user2'.
+2018-09-21 20:32:14.5651|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user2'.
+2018-09-21 20:32:14.5811|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user3'.
+2018-09-21 20:32:14.6021|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user3'.
+2018-09-21 20:32:14.6101|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user4'.
+2018-09-21 20:32:14.6861|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user4'.
+2018-09-21 20:32:14.7421|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user5'.
+2018-09-21 20:32:14.7871|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user5'.
+2018-09-21 20:32:14.8311|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user6'.
+2018-09-21 20:32:14.8471|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user6'.
+2018-09-21 20:32:14.8551|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user7'.
+2018-09-21 20:32:14.8551|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user7'.
+2018-09-21 20:32:14.8721|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user8'.
+2018-09-21 20:32:14.8721|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user8'.
+2018-09-21 20:32:14.8861|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user9'.
+2018-09-21 20:32:14.8861|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user9'.
+2018-09-21 20:32:14.8861|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding user: 'user10'.
+2018-09-21 20:32:14.9091|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding driver for: 'user10'.
+2018-09-21 20:32:14.9091|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin1'.
+2018-09-21 20:32:14.9181|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin2'.
+2018-09-21 20:32:14.9181|TRACE|Passenger.Infrastructure.Services.DataInitializer|Adding admin: 'admin3'.
+2018-09-21 20:32:15.3092|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting starting
+2018-09-21 20:32:15.7142|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting started
+2018-09-21 20:36:26.1137|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU4HM56BG" started.
+2018-09-21 20:36:26.7407|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/users  
+2018-09-21 20:36:28.0628|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Users'.
+2018-09-21 20:36:28.2408|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.UsersController.Post (Passenger.Api)' with id '6ac8900b-f47d-4444-a67a-ab9e00da9da0' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 20:36:28.4148|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Passenger.Api.Controllers.UsersController.Get (Passenger.Api)
+2018-09-21 20:36:28.7058|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api) with arguments ((null)) - ModelState is Valid
+2018-09-21 20:36:28.9059|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Passenger.Api.Controllers.UsersController.Get (Passenger.Api), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2018-09-21 20:36:29.1739|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value System.Collections.Generic.List`1[Passenger.Infrastructure.DTO.UserDto].
+2018-09-21 20:36:31.0910|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Passenger.Api.Controllers.UsersController.Get (Passenger.Api) in 2657.5663ms
+2018-09-21 20:36:31.1590|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU4HM56BG" completed keep alive response.
+2018-09-21 20:36:31.1760|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4592.5629ms 200 application/json; charset=utf-8
+2018-09-21 20:36:35.1720|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/drivers  
+2018-09-21 20:36:35.1720|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Drivers'.
+2018-09-21 20:36:35.1820|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.DriversController.Post (Passenger.Api)' with id '0cfc438c-6ca3-44f5-a3f4-f61c662ec940' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 20:36:35.1820|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Passenger.Api.Controllers.DriversController.Put (Passenger.Api)' with id 'a0ac3b56-f42d-4208-9e1a-0b636173c17f' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-21 20:36:35.1820|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Passenger.Api.Controllers.DriversController.Get (Passenger.Api)
+2018-09-21 20:36:35.1981|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Passenger.Api.Controllers.DriversController.Get (Passenger.Api) with arguments ((null)) - ModelState is Valid
+2018-09-21 20:36:35.2661|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Passenger.Api.Controllers.DriversController.Get (Passenger.Api), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2018-09-21 20:36:35.2661|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value System.Collections.Generic.List`1[Passenger.Infrastructure.DTO.DriverDto].
+2018-09-21 20:36:35.2811|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Passenger.Api.Controllers.DriversController.Get (Passenger.Api) in 90.2378ms
+2018-09-21 20:36:35.2811|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU4HM56BG" completed keep alive response.
+2018-09-21 20:36:35.2811|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 115.9392ms 200 application/json; charset=utf-8
+2018-09-21 20:36:40.7905|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting shutdown
+2018-09-21 20:36:40.9245|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU4HM56BG" disconnecting.
+2018-09-21 20:36:40.9245|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU4HM56BG" sending FIN.
+2018-09-21 20:36:40.9465|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU4HM56BG" sent FIN with status "0".
+2018-09-21 20:36:40.9545|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLGVU4HM56BG" stopped.
+2018-09-24 21:35:31.7848|TRACE|Lift.Infrastructure.Services.DataInitializer|Initializing data...
+2018-09-24 21:35:32.7092|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding user: 'user1'.
+2018-09-24 21:35:32.7906|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding driver for: 'user1'.
+2018-09-24 21:35:32.8062|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding user: 'user2'.
+2018-09-24 21:35:32.8062|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding driver for: 'user2'.
+2018-09-24 21:35:32.8062|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding user: 'user3'.
+2018-09-24 21:35:32.8218|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding driver for: 'user3'.
+2018-09-24 21:35:32.8218|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding user: 'user4'.
+2018-09-24 21:35:32.8374|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding driver for: 'user4'.
+2018-09-24 21:35:32.8374|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding user: 'user5'.
+2018-09-24 21:35:32.8374|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding driver for: 'user5'.
+2018-09-24 21:35:32.8530|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding user: 'user6'.
+2018-09-24 21:35:32.8530|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding driver for: 'user6'.
+2018-09-24 21:35:32.8530|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding user: 'user7'.
+2018-09-24 21:35:32.8686|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding driver for: 'user7'.
+2018-09-24 21:35:32.8686|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding user: 'user8'.
+2018-09-24 21:35:32.8843|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding driver for: 'user8'.
+2018-09-24 21:35:32.8843|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding user: 'user9'.
+2018-09-24 21:35:32.8843|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding driver for: 'user9'.
+2018-09-24 21:35:32.8999|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding user: 'user10'.
+2018-09-24 21:35:32.9155|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding driver for: 'user10'.
+2018-09-24 21:35:32.9155|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding admin: 'admin1'.
+2018-09-24 21:35:32.9155|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding admin: 'admin2'.
+2018-09-24 21:35:32.9155|TRACE|Lift.Infrastructure.Services.DataInitializer|Adding admin: 'admin3'.
+2018-09-24 21:35:33.2963|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting starting
+2018-09-24 21:35:36.4567|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting started
+2018-09-24 21:35:41.6813|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLH2AJKUFT71" started.
+2018-09-24 21:35:42.0964|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/drivers  
+2018-09-24 21:35:43.0480|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Drivers'.
+2018-09-24 21:35:43.1351|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Lift.Api.Controllers.DriversController.Post (Lift.Api)' with id 'bc790e6e-4836-44d3-a43f-deee4e4283e7' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-24 21:35:43.1351|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Lift.Api.Controllers.DriversController.Put (Lift.Api)' with id '65401177-71f3-4f6d-ba26-cc872205c866' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-24 21:35:43.2968|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Lift.Api.Controllers.DriversController.Get (Lift.Api)
+2018-09-24 21:35:43.5218|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Lift.Api.Controllers.DriversController.Get (Lift.Api) with arguments ((null)) - ModelState is Valid
+2018-09-24 21:35:43.6539|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Lift.Api.Controllers.DriversController.Get (Lift.Api), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2018-09-24 21:35:43.7817|INFO|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|Executing JsonResult, writing value System.Collections.Generic.List`1[Lift.Infrastructure.DTO.DriverDto].
+2018-09-24 21:35:44.4680|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Lift.Api.Controllers.DriversController.Get (Lift.Api) in 1160.8671ms
+2018-09-24 21:35:44.5190|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLH2AJKUFT71" completed keep alive response.
+2018-09-24 21:35:44.5490|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2536.9255ms 200 application/json; charset=utf-8
+2018-09-24 21:35:44.6030|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2018-09-24 21:35:44.6030|DEBUG|Microsoft.AspNetCore.Builder.RouterMiddleware|Request did not match any routes.
+2018-09-24 21:35:44.6201|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLH2AJKUFT71" completed keep alive response.
+2018-09-24 21:35:44.6201|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.9755ms 404 
+2018-09-24 21:35:47.3850|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/users  
+2018-09-24 21:35:47.3850|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Users'.
+2018-09-24 21:35:47.3850|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Action 'Lift.Api.Controllers.UsersController.Post (Lift.Api)' with id 'ca910909-6f77-4c97-ac5c-27f77e80381d' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-09-24 21:35:47.3850|DEBUG|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action Lift.Api.Controllers.UsersController.Get (Lift.Api)
+2018-09-24 21:35:47.4013|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Lift.Api.Controllers.UsersController.Get (Lift.Api) with arguments ((null)) - ModelState is Valid
+2018-09-24 21:36:17.4594|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Lift.Api.Controllers.UsersController.Get (Lift.Api) in 30062.2696ms
+2018-09-24 21:36:17.6274|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLH2AJKUFT71" completed keep alive response.
+2018-09-24 21:36:17.6274|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30244.608ms 400 application/json
+2018-09-24 21:37:08.4541|DEBUG|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting shutdown
+2018-09-24 21:37:08.5832|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLH2AJKUFT71" disconnecting.
+2018-09-24 21:37:08.5832|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLH2AJKUFT71" sending FIN.
+2018-09-24 21:37:08.5988|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLH2AJKUFT71" sent FIN with status "0".
+2018-09-24 21:37:08.6144|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLH2AJKUFT71" stopped.

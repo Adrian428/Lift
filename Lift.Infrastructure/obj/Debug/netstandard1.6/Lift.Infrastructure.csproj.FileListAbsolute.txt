@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Lift\Lift.Infrastructure\bin\Debug\netstandard1.6\Lift.Infrastructure.deps.json
+C:\Users\User\Desktop\Lift\Lift.Infrastructure\bin\Debug\netstandard1.6\Lift.Infrastructure.dll
+C:\Users\User\Desktop\Lift\Lift.Infrastructure\bin\Debug\netstandard1.6\Lift.Infrastructure.pdb
+C:\Users\User\Desktop\Lift\Lift.Infrastructure\bin\Debug\netstandard1.6\Lift.Core.dll
+C:\Users\User\Desktop\Lift\Lift.Infrastructure\bin\Debug\netstandard1.6\Lift.Core.pdb
+C:\Users\User\Desktop\Lift\Lift.Infrastructure\obj\Debug\netstandard1.6\Lift.Infrastructure.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Lift\Lift.Infrastructure\obj\Debug\netstandard1.6\Lift.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Lift\Lift.Infrastructure\obj\Debug\netstandard1.6\Lift.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Lift\Lift.Infrastructure\obj\Debug\netstandard1.6\Lift.Infrastructure.AssemblyInfo.cs
+C:\Users\User\Desktop\Lift\Lift.Infrastructure\obj\Debug\netstandard1.6\Lift.Infrastructure.csproj.CopyComplete
+C:\Users\User\Desktop\Lift\Lift.Infrastructure\obj\Debug\netstandard1.6\Lift.Infrastructure.dll
+C:\Users\User\Desktop\Lift\Lift.Infrastructure\obj\Debug\netstandard1.6\Lift.Infrastructure.pdb

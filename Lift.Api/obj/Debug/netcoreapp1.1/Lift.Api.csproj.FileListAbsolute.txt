@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\Lift\Lift.Api\bin\Debug\netcoreapp1.1\Lift.Api.deps.json
+C:\Users\User\Desktop\Lift\Lift.Api\bin\Debug\netcoreapp1.1\Lift.Api.runtimeconfig.json
+C:\Users\User\Desktop\Lift\Lift.Api\bin\Debug\netcoreapp1.1\Lift.Api.runtimeconfig.dev.json
+C:\Users\User\Desktop\Lift\Lift.Api\bin\Debug\netcoreapp1.1\Lift.Api.dll
+C:\Users\User\Desktop\Lift\Lift.Api\bin\Debug\netcoreapp1.1\Lift.Api.pdb
+C:\Users\User\Desktop\Lift\Lift.Api\bin\Debug\netcoreapp1.1\Lift.Core.dll
+C:\Users\User\Desktop\Lift\Lift.Api\bin\Debug\netcoreapp1.1\Lift.Infrastructure.dll
+C:\Users\User\Desktop\Lift\Lift.Api\bin\Debug\netcoreapp1.1\Lift.Infrastructure.pdb
+C:\Users\User\Desktop\Lift\Lift.Api\bin\Debug\netcoreapp1.1\Lift.Core.pdb
+C:\Users\User\Desktop\Lift\Lift.Api\obj\Debug\netcoreapp1.1\Lift.Api.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Lift\Lift.Api\obj\Debug\netcoreapp1.1\Lift.Api.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Lift\Lift.Api\obj\Debug\netcoreapp1.1\Lift.Api.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Lift\Lift.Api\obj\Debug\netcoreapp1.1\Lift.Api.AssemblyInfo.cs
+C:\Users\User\Desktop\Lift\Lift.Api\obj\Debug\netcoreapp1.1\Lift.Api.csproj.CopyComplete
+C:\Users\User\Desktop\Lift\Lift.Api\obj\Debug\netcoreapp1.1\Lift.Api.dll
+C:\Users\User\Desktop\Lift\Lift.Api\obj\Debug\netcoreapp1.1\Lift.Api.pdb
